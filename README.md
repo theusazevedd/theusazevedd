@@ -1,90 +1,58 @@
-# 👋 Olá, eu sou o Matheus Azevedo
+# Olá, eu sou o Matheus Azevedo 👋
 
-🎓 Formado em Análise e Desenvolvimento de Sistemas  
-🎓 Estudante de Ciência da Computação (UNINTER - 1º semestre)
+🎓 Tecnólogo em Análise e Desenvolvimento de Sistemas  
+🎓 Cursando Ciência da Computação (UNINTER)  
+💻 Desenvolvedor Backend — Java, Spring Boot e arquitetura de microserviços
 
-💻 Desenvolvedor Backend focado em Java e Spring Boot  
-🚀 Atualmente construindo projetos com arquitetura de microserviços
+---
 
-## 🧠 Sobre mim
+## Sobre mim
 
-Sou um desenvolvedor em início de carreira, focado em backend, com experiência prática no desenvolvimento de APIs REST, autenticação com JWT e construção de sistemas distribuídos.
+Sou desenvolvedor backend com foco em Java e Spring Boot, apaixonado por construir sistemas bem estruturados e escaláveis. Tenho me aprofundado em arquitetura de microserviços, autenticação distribuída e boas práticas de desenvolvimento de APIs.
 
-Tenho trabalhado em projetos que simulam cenários reais de mercado, utilizando microserviços, Docker e integração entre múltiplos serviços.
+Gosto de trabalhar com problemas que exigem pensar além do código — como serviços se comunicam, como dados são organizados por domínio e como garantir que o sistema funciona de ponta a ponta. Meu objetivo é ingressar no mercado como desenvolvedor backend e continuar evoluindo nessa direção.
 
-## 🛠️ Tecnologias e Ferramentas
+---
 
-### Backend
-- Java 17
-- Spring Boot
-- Spring Security
-- JPA / Hibernate
-- OpenFeign
+## 🛠️ Tecnologias
 
-### Banco de Dados
-- PostgreSQL
-- MongoDB
+**Backend**  
+Java 17 · Spring Boot · Spring Security · JPA / Hibernate · OpenFeign
 
-### APIs e Arquitetura
-- APIs REST
-- Autenticação com JWT
-- Documentação com Swagger
-- Microserviços
+**Banco de Dados**  
+PostgreSQL · MongoDB
 
-### Testes
-- JUnit
-- Mockito
+**APIs e Arquitetura**  
+REST · JWT · Swagger · Microserviços
 
-### DevOps e Ferramentas
-- Docker
-- Docker Compose
-- Git
-- GitHub
-- GitHub Actions (CI/CD)
+**Testes**  
+JUnit · Mockito
+
+**DevOps e Ferramentas**  
+Docker · Docker Compose · Git · GitHub
+
+---
 
 ## 🚀 Projetos em destaque
 
-### 🔗 Sistema de Agendamento de Tarefas (Microserviços)
-Sistema completo baseado em arquitetura de microserviços, com autenticação distribuída, comunicação entre serviços e execução via Docker Compose.
+### Sistema de Agendamento de Tarefas — Microserviços
+> Java 17 · Spring Boot · JWT · OpenFeign · PostgreSQL · MongoDB · Docker Compose
 
-💡 Principais funcionalidades:
-- Cadastro e autenticação de usuários com JWT
-- Criação e gerenciamento de tarefas com data/hora
-- Processamento assíncrono com job agendado
-- Envio automático de notificações por e-mail
+Sistema completo em arquitetura de microserviços onde usuários se cadastram, criam tarefas com data e hora e recebem notificações automáticas por e-mail.
 
-🏗️ Arquitetura:
-- BFF (Backend-for-Frontend) para orquestração
-- Microserviços independentes (`user`, `scheduler`, `notification`)
-- Comunicação via OpenFeign
-- Integração com PostgreSQL (usuários) e MongoDB (tarefas)
+**Arquitetura:**
+- `task-bff` — orquestrador (Backend-for-Frontend)
+- `user-service` — cadastro e autenticação com JWT
+- `task-scheduler-service` — criação e agendamento de tarefas
+- `notification-service` — envio de e-mails via job agendado
 
-⚙️ Infraestrutura:
-- Docker + Docker Compose (ambiente completo)
-- Comunicação entre containers via DNS interno
-- Variáveis de ambiente e configuração por serviço
+**Destaques técnicos:** autenticação JWT distribuída entre serviços, dois bancos com responsabilidades distintas (PostgreSQL para usuários, MongoDB para tarefas), comunicação via OpenFeign e orquestração completa com Docker Compose.
 
-📌 Destaques técnicos:
-- Autenticação distribuída com JWT
-- Integração entre múltiplos serviços
-- Separação de responsabilidades por domínio
-- Projeto documentado com diagramas e execução completa via Docker
+🔗 [Ver repositório](https://github.com/theusazevedd/Task-Scheduler-System)
 
-➡️ [Task-Scheduler-System](https://github.com/theusazevedd/Task-Scheduler-System)
-
-📌 O sistema é composto por múltiplos serviços independentes, cada um responsável por um domínio específico:
-
-- `task-bff` -> camada de orquestração (Backend-for-Frontend)
-- `user-service` -> gerenciamento de usuários e autenticação
-- `task-scheduler-service` -> lógica de criação e agendamento de tarefas
-- `notification-service` -> envio de notificações por e-mail
-
-## 📚 Cursos e Formação Complementar
-
-- Java Programação Orientada a Objetos - Udemy
-- Treinamento Fullstack - Javanauta
+---
 
 ## 📫 Contato
 
-💼 LinkedIn:  
-[linkedin.com/in/matheus-azevedo-292b743b5](https://www.linkedin.com/in/matheus-azevedo-292b743b5/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Matheus%20Azevedo-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-azevedo-292b743b5/)  
+[![Email](https://img.shields.io/badge/Email-matheus__ma02%40hotmail.com-0078D4?logo=microsoftoutlook&logoColor=white)](mailto:matheus_ma02@hotmail.com)
