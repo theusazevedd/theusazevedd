@@ -23,17 +23,35 @@ Java 17 · Spring Boot · Spring Security · JPA / Hibernate · OpenFeign
 PostgreSQL · MongoDB
 
 **APIs e Arquitetura**  
-REST · JWT · Swagger · Microserviços
+REST · JWT · Swagger · RabbitMQ · Microserviços
 
 **Testes**  
 JUnit · Mockito
 
 **DevOps e Ferramentas**  
-Docker · Docker Compose · Git · GitHub
+Docker · Docker Compose · Git · GitHub · Railway
 
 ---
 
 ## 🚀 Projetos em destaque
+
+### Barberflow API — Sistema de Agendamento para Barbearia
+> Java · Spring Boot · PostgreSQL · RabbitMQ · JWT · Docker · Railway
+
+API REST para gerenciamento de agendamentos em barbearia, com autenticação JWT, gerenciamento de agenda do barbeiro, geração de disponibilidade e comunicação assíncrona com RabbitMQ.
+
+**Destaques técnicos:**
+- autenticação stateless com JWT e Spring Security
+- perfis CLIENT e BARBER
+- geração dinâmica de disponibilidade de horários
+- publicação e consumo de eventos com RabbitMQ
+- documentação com Swagger/OpenAPI
+- Docker Compose para ambiente local
+- deploy em cloud com Railway
+
+🔗 Repositório: https://github.com/theusazevedd/barberflow-api
+
+---
 
 ### Sistema de Agendamento de Tarefas — Microserviços
 > Java 17 · Spring Boot · JWT · OpenFeign · PostgreSQL · MongoDB · Docker Compose
