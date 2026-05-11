@@ -64,9 +64,14 @@ Sistema completo em arquitetura de microserviços onde usuários se cadastram, c
 - `task-scheduler-service` — criação e agendamento de tarefas
 - `notification-service` — envio de e-mails via job agendado
 
-**Destaques técnicos:** autenticação JWT distribuída entre serviços, dois bancos com responsabilidades distintas (PostgreSQL para usuários, MongoDB para tarefas), comunicação via OpenFeign e orquestração completa com Docker Compose.
+**Destaques técnicos:**
+- autenticação JWT distribuída entre serviços
+- dois bancos com responsabilidades distintas
+- comunicação entre serviços via OpenFeign
+- arquitetura desacoplada
+- orquestração completa com Docker Compose
 
-🔗 [Ver repositório](https://github.com/theusazevedd/Task-Scheduler-System)
+🔗 Repositório: https://github.com/theusazevedd/Task-Scheduler-System
 
 ---
 
